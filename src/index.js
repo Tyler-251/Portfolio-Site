@@ -5,6 +5,7 @@ import { NavBar } from "./components/NavBar.js"
 import { AboutMain } from "./components/AboutMain.js"
 import { InfoMain } from "./components/InfoMain.js"
 import { Error } from "./components/Error.js"
+import { Footer } from "./components/Footer.js"
 import "./index.css"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -12,10 +13,13 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 let MainDiv;
 switch (window.location.pathname) {
     case "/":
-        MainDiv = AboutMain;
+        MainDiv = AboutMain; //home
         break;
     case "/info":
         MainDiv = InfoMain;
+        break;
+    case "/about":
+        MainDiv = AboutMain;
         break;
     default:
         MainDiv = Error;
@@ -27,6 +31,7 @@ root.render(
         <AppHeader />
         <NavBar />
         <MainDiv />
+        <Footer />
     </div>
 );
 
