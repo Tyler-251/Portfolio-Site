@@ -11,7 +11,7 @@ root.render(
     <div>
         <AppHeader />
         <NavBar />
-        <AboutMain />
+        <p>information</p>
     </div>
 );
 
