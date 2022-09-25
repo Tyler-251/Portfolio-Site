@@ -179,13 +179,26 @@ body {
 }
 /* #endregion */
 /* #region info */
+
 .infomain {
-    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
 }
-.infomain .btn {
-    background-color: #701217;
+.infomain a {
+    margin-top: 5px;
+    flex: 100%;
+    font-size: 20px;
     color: white;
+    background-color: #580e12;
+    border:#701217 solid 3px;
+    border-radius: 10px;
 }
+.infomain .document {
+    margin: auto;
+    padding-top: 10px;
+}
+
+
 /* #endregion */
 /* #region footer */
 footer {

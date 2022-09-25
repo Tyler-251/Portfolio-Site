@@ -9,10 +9,10 @@ export const NavBar = () => {
                 </div>
                 <div class="collapse navbar-collapse show" id="myNavbar">
                     <div class="navbar nav">
-                        <a class="col-md-3 col-sm-6 text-center" href="./">Home</a>
-                        <a class="col-md-3 col-sm-6 text-center alt-nav" href="./projects">Projects</a>
-                        <a class="col-md-3 col-sm-6 text-center" href="./info">Information</a>
-                        <a class="col-md-3 col-sm-6 text-center alt-nav" href="./about">About</a>           
+                        <a rel="noreferrer" class="col-md-3 col-sm-6 text-center" href="./">Home</a>
+                        <a rel="noreferrer" class="col-md-3 col-sm-6 text-center alt-nav" href="./projects">Projects</a>
+                        <a rel="noreferrer" class="col-md-3 col-sm-6 text-center" href="./info">Information</a>
+                        <a rel="noreferrer" class="col-md-3 col-sm-6 text-center alt-nav" href="./about">About</a>           
                     </div>
                 </div>
             </div>
