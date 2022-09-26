@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 /* #region main */
 body {
     margin: 0px;
@@ -42,15 +43,20 @@ body {
     color: white;
     z-index: 10000;
 }
-.headerdiv h1 {
+.headerdiv a {
     margin: 0;
     color: #c7ece6;
+    font-size: 36px;
     font-weight: 700;
     z-index: 1000;
     position: absolute;
     top: 50px;
     left: 10px;
     white-space: nowrap;
+}
+.headerdiv a:hover {
+    text-underline-offset: -1000px;
+    color:#e5f4f1;
 }
 .fallingtextdiv {
     width: 100%;
@@ -102,6 +108,43 @@ body {
 .navbar .container-fluid {
     padding: 0;
 }
+/* #endregion */
+/* #region home */
+    .homebar {
+        background-color:#580e12;
+    }
+    #home-carousel {
+        max-height: 400px;
+        background-color: #0d0001;
+        margin-left: -5px;
+        margin-right: -5px;
+    }
+    #home-carousel img {
+        max-height: 400px;
+        max-width: 100vw;
+        line-height: 30px;
+        margin: auto;
+    }
+    #home-carousel .carousel-control-prev,
+    #home-carousel .carousel-control-next {
+        background-color:#210204;
+    }
+    .home-main {
+        background-color: black;
+        font-family: 'Source Code Pro', monospace;
+        margin-left: -5px;
+        margin-right: -5px;
+        margin-bottom: -8px;
+    }
+    .home-main h1 {
+        color: white;  
+        padding-top: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .home-main h1::after {
+        content: "_";
+    }
 /* #endregion */
 /* #region about */
 .about-header {
