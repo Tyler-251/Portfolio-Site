@@ -7,7 +7,7 @@ export const InfoMain = (props) => {
     return (
         <div class="main">
             <div class="infomain">
-                <a class="btn" href="./resume.pdf" target="_blank" rel="noreferrer">Go to Resume &rarr;</a>
+                <a class="btn" href="./resume.pdf" target="_blank" rel="noreferrer">Open Resume &rarr;</a>
                 <div class="document">
                     <Document file="/resume.pdf">
                         <Page pageNumber={1}/>

@@ -34,20 +34,35 @@ export const AboutMain = (props) => {
                         hobbies are actually game-design and music. I've played trumpet for years and started
                         piano during the pandemic. I love all things jazz, and my favorite artist over the years
                         has been Dizzy Gillespie. <br/>
-                        &nbsp; &nbsp; &nbsp; Etc.
-                        
+                            <div class="p-space"/>
+                        &nbsp; &nbsp; &nbsp; I've always been interested in learning design programs. When I was 
+                        in middle school, I began messing around with Adobe programs such as PhotoShop, Premiere Pro,
+                        and Illustrator. I then graduated to working with more 3D design workspaces such as Unity Engine
+                        and Blender. Throughout high-school, I slowly began to learn the basics of C# which served as the 
+                        groundwork for my collegiate studies in Computer Science. A lot of my personal studies have gone 
+                        into graphic design within the spaces of video games, web pages and logos.
+                            <div class="p-space"/>
+                        &nbsp; &nbsp; &nbsp; Music has always been a huge part of my life, and with my interest in programs,
+                        dabbling in songwriting was inevitable. I started using FL Studio and graduated to Ableton Live,
+                        where I was able to make most of my projects. While my knowledge in music theory is far from none, 
+                        I do find it hard to get material ready and good enough to publish. I'm surrounded by millions of 
+                        incomplete projects, and I don't think that will ever change.
                     </p>
-                    <h4>A song that I enjoy:</h4>
-                    <IFrame
-                        style="border-radius:12px"
-                        src="https://open.spotify.com/embed/track/6xEHCWUvalb0fNYuAo591v?utm_source=generator&theme=0" 
-                        width="100%" 
-                        height="80" 
-                        frameBorder="0" 
-                        allowfullscreen="" 
-                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
-                        loading="lazy"
-                    />
+                        
+                    <div class="song">
+                        <h4>A song that I love:</h4>
+                        <IFrame
+                            style="border-radius:12px"
+                            src="https://open.spotify.com/embed/track/6xEHCWUvalb0fNYuAo591v?utm_source=generator&theme=0" 
+                            width="100%" 
+                            height="80" 
+                            frameBorder="0" 
+                            allowfullscreen="" 
+                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                            loading="lazy"
+                            class="iframe"
+                        />
+                    </div>
                 </div>  
             </div>
         </div>

@@ -6,6 +6,7 @@ import { AboutMain } from "./components/AboutMain.js"
 import { InfoMain } from "./components/InfoMain.js"
 import { Error } from "./components/Error.js"
 import { Footer } from "./components/Footer.js"
+import { HomeMain } from "./components/HomeMain.js"
 import "./index.css"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -13,7 +14,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 let MainDiv;
 switch (window.location.pathname) {
     case "/":
-        MainDiv = AboutMain; //home
+        MainDiv = HomeMain;
         break;
     case "/info":
         MainDiv = InfoMain;

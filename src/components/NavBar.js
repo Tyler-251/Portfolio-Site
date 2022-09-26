@@ -11,7 +11,7 @@ export const NavBar = () => {
                     <div class="navbar nav">
                         <a rel="noreferrer" class="col-md-3 col-sm-6 text-center" href="./">Home</a>
                         <a rel="noreferrer" class="col-md-3 col-sm-6 text-center alt-nav" href="./projects">Projects</a>
-                        <a rel="noreferrer" class="col-md-3 col-sm-6 text-center" href="./info">Information</a>
+                        <a rel="noreferrer" class="col-md-3 col-sm-6 text-center" href="./info">Resume</a>
                         <a rel="noreferrer" class="col-md-3 col-sm-6 text-center alt-nav" href="./about">About</a>           
                     </div>
                 </div>

@@ -5,6 +5,8 @@ body {
     overflow-x: hidden;
     font-family: 'Josefin Sans';
     background-color: #0f1617;
+    background-image: url(./img/mother.png);
+    background-size: 22vw;
 }
 .bar {
     width: inherit;
@@ -18,12 +20,16 @@ body {
 }
 .main {
     background-color: rgb(54, 52, 52);
-    min-height: 100vh;
+    min-height: calc(100vh - 178px);
     max-width: 1300px;
     margin: auto;
     padding-left: 5px;
     padding-right: 5px;
     padding-top: 0px;
+    box-shadow: 0px 0px 20px #210103; 
+}
+.p-space {
+    padding-top: 7px;
 }
 /* #endregion */
 /* #region header */
@@ -34,6 +40,7 @@ body {
     background-size: cover;
     background-position-y: bottom;
     color: white;
+    z-index: 10000;
 }
 .headerdiv h1 {
     margin: 0;
@@ -82,6 +89,7 @@ body {
     background-image: url(./img/button.png);
     border: none;
     background-color: #395462;
+    visibility: hidden;
 }
 .navbar-toggler:hover {
     border: none;
@@ -164,10 +172,27 @@ body {
     color: white;
     box-shadow: 0px 0px 10px #0f1617;
 }
-.about-main h4 {
-    color:#b43b41;
+.song {
+    color: white;
+    background-color:#580e12;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
     text-shadow: 0px 0px 10px#0f1617;
 }
+.song h4 {
+    flex: 100%;
+    padding-top: 5px;
+}
+.song iframe {
+    flex: 100%;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
 /* #endregion */
 /* #region error */
 .errormain {
@@ -176,6 +201,8 @@ body {
 }
 .errormain img {
     flex: 50%;
+    float: right;
+    padding: 10px;
 }
 /* #endregion */
 /* #region info */
@@ -229,9 +256,25 @@ footer .bar {
         padding-left: 5px;
     }
 }
-@media screen and (min-width: 767px) {
+@media screen and (max-width: 767px) {
+    .main {
+        min-height: calc(100vh - 140px);
+    }
     .navbar-toggler {
-        visibility: hidden;
+        visibility: visible;
+    }
+    .about-main p {
+        font-size: 11.25pt;
+        padding-left: 300px;
+        padding-right: 300px;
+        margin-left: -300px;
+        margin-right: -300px;
+    }
+    .about-main img {
+        width: 100vw;
+        margin: -20px;
+        margin-left: -40px;
+        border-radius: 0;;
     }
 }
 /* #endregion */
