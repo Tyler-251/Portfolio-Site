@@ -16,5 +16,8 @@
 
 ## Using REACT
 
-&nbsp;&nbsp;&nbsp;This is my first project with React. Given my comparable skills in web development before I learned about it, I was able to really do anything I wanted to with it. The libraries are incredibly vast and everything is configurable if you dig far enough into it. Personally, when I built my components, rather than extending React.Component I used functions as exports to return the pseudo HTML. I have seen that you can do it either way and I simply prefer it this way. `<br/>`
-&nbsp;&nbsp;&nbsp;Etc.
+&nbsp;&nbsp;&nbsp;This is my first project with React. Given my comparable skills in web development before I learned about it, I was able to really do anything I wanted to with it. The libraries are incredibly vast and everything is configurable if you dig far enough into it. Personally, when I built my components, rather than extending React.Component I used functions as exports to return the pseudo HTML. I have seen that you can do it either way and I simply prefer it this way.
+
+### How to build
+
+&nbsp;&nbsp;&nbsp;Once you have Node installed, you must create a new project using `npx create-react-app 'project-name'` in the command line in your desired directory. This will load a new project with the correct node modules. You may then gut out the demo project files and replace them with the source code in the repo. (Note: You may have to mess with the project name in package.json, the base name is 'portfolio' but your project might have been named differently)
