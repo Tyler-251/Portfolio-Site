@@ -7,7 +7,7 @@ import {animated} from "react-spring"
 export const AppHeader = () => {
     return (
         <div class="headerdiv">
-            <a href="/">Tyler Russell</a>
+            <a href="/">Tyler Russell<em>.info</em></a>
             {InitFlyingText("Welcome to my site,", 0, 10)}
             {InitFlyingText("stick around", -5, 30)}
             {InitFlyingText("and enjoy!", -10, 50)}

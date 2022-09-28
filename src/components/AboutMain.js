@@ -23,10 +23,10 @@ export const AboutMain = (props) => {
             </div>
             <div class="bar aboutbar"/>
             <div class="about-main row">
-                <div class="col-sm-12 col-md-6">
+                <div class="col-sm-12 col-lg-12 col-xl-6">
                     <img src={me} alt="A Picture of Me"/>
                 </div>
-                <div class="col-sm-12 col-md-6">
+                <div class="col-sm-12 col-lg-12 col-xl-6">
                     <p>
                         <pre/><strong class="text-lead">&nbsp; &nbsp; Hi!</strong> My name's Tyler Russell and I'm currently a
                         student at Missouri State University pursuing a degree in Computer Science. My main
