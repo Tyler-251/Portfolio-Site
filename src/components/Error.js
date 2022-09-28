@@ -13,7 +13,7 @@ export const Error = (props) => {
                     <h4>You can stay here and boogie with this guy if you want.</h4>                  
                 </div>
                 <div class="col-sm-12 col-md-6">
-                    <img src={poop} alt="Poop emoji" />
+                    <img src={poop} alt="Dancing purple guy" />
                 </div>
             </div>
         </div>

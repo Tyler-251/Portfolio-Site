@@ -5,9 +5,10 @@ body {
     margin: 0px;
     overflow-x: hidden;
     font-family: 'Josefin Sans';
-    background-color: #1B1811;
+    background-color: rgb(31, 33, 70);
     /*background-image: url(./img/webpage.png);*/
     background-size: 50vw;
+    box-shadow: inset 0 0 20px black;
 }
 .bar {
     width: inherit;
@@ -22,12 +23,12 @@ body {
 .main {
     background-color: rgba(0, 0, 0, 0.6);
     min-height: calc(100vh - 170px);
-    max-width: 1300px;
+    max-width: 1400px;
     margin: auto;
     padding-left: 5px;
     padding-right: 5px;
     padding-top: 0px;
-    box-shadow: 0px 0px 200px #000000; 
+    box-shadow: 0px 0px 35px #000000; 
 }
 .p-space {
     padding-top: 7px;
@@ -132,7 +133,7 @@ body {
 /* #region about */
 .about-header {
     width: inherit;
-    background-color: #701217;
+    background-color: rgb(17, 19, 53);
     margin-left: -5px;
     margin-right: -5px;
     margin-bottom: 0;
@@ -148,7 +149,7 @@ body {
     flex: 30%;
 }
 .aboutbar {
-    background-color: #580e12;
+    background-color: rgb(10, 11, 29);
 }
 .link-logos {
     display: flex;
@@ -159,17 +160,17 @@ body {
 .link-logo {
     float: right;
     flex: 10%;
-    background-color: #851a1f;
+    background-color: rgb(23, 26, 81);
     padding: 0;
     padding-left: 5%;
     padding-right: 5%;
     margin-right: 5px;
 }
 .link-logo:hover {
-    background-color: #96272c;
+    background-color: rgb(28, 31, 98);
 }
 .link-logo:active {
-    background-color: #b43b41;
+    background-color: rgb(32, 36, 113);
 }
 .link-logo img {
     width:fit-content;
@@ -194,13 +195,14 @@ body {
 .about-main p {
     padding: 20px;
     padding-top: 10px;
-    background-color:#580e12;
+    background-color:rgba(23, 26, 79, 0.532);
     color: white;
     box-shadow: 0px 0px 10px #0f1617;
+    border-radius: 20px;
 }
 .song {
     color: white;
-    background-color:#580e12;
+    background-color:rgb(23, 26, 79);
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
@@ -255,9 +257,10 @@ body {
 /* #endregion */
 /* #region footer */
 footer {
-    background-color: #C23838;
-    color: #1f0a11;
+    background-color: #3C1321;;
+    color: white;
     font-weight: 700;
+    font-style: italic;
 }
 footer p {
     margin:0;
