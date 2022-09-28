@@ -140,7 +140,7 @@ body {
     color: #d44242;
 } 
 .home-desc strong {
-    color: #5E0009;
+    color: #84000d;
     text-shadow: #260404 0 0 5px;
 }
 .home-main .content {
@@ -160,6 +160,7 @@ body {
     border: solid rgb(31, 33, 70) 5px;
     border-radius: 50%;
     height: 300px;
+    box-shadow: rgb(31, 33, 70) 0 0 10px;
 }
 /* #endregion */
 /* #region about */

@@ -4,9 +4,10 @@ import { AppHeader } from "./components/AppHeader.js"
 import { NavBar } from "./components/NavBar.js"
 import { AboutMain } from "./components/AboutMain.js"
 import { InfoMain } from "./components/InfoMain.js"
-import { Error } from "./components/Error.js"
-import { Footer } from "./components/Footer.js"
 import { HomeMain } from "./components/HomeMain.js"
+import { ProjectsMain } from "./components/ProjectsMain.js"
+import { Footer } from "./components/Footer.js"
+import { Error } from "./components/Error.js"
 import "./index.css"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -18,6 +19,9 @@ switch (window.location.pathname) {
         break;
     case "/info":
         MainDiv = InfoMain;
+        break;
+    case "/projects":
+        MainDiv = ProjectsMain;
         break;
     case "/about":
         MainDiv = AboutMain;
