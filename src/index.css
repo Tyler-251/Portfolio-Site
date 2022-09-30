@@ -5,8 +5,6 @@ body {
     overflow-x: hidden;
     font-family: 'Josefin Sans';
     background-color: rgb(31, 33, 70);
-    /*background-image: url(./img/webpage.png);*/
-    background-size: 50vw;
     box-shadow: inset 0 0 20px black;
 }
 .bar {
@@ -343,6 +341,7 @@ body {
     flex: 50%;
     float: right;
     padding: 10px;
+    overflow: hidden;
 }
 /* #endregion */
 /* #region info */
