@@ -5,7 +5,7 @@
             "imgpath": "./projectpics/this.png", 
             "name": "TylerRussell.info (this website)",
             "date": "September",
-            "desc": "I began this project in the middle of September in conjunction with a web development course. In making this site, I became familiar with React, bootstrap, and css. I also did some minute reseach into tailwind before deciding to commit to bootstrap and css. To build this projects page, instead of writing out all of the HTML, I parse in a JSON file containing a simple list of my project information and then run it through a secondary parser I built to display my project information. This method has its limitations but it will be easy to implement future projects which was the intention.",
+            "desc": "I began this project in conjunction with a web development course. In making this site, I became familiar with React, bootstrap, and css. I also did some minute reseach into tailwind before deciding to commit to bootstrap and css. To build this projects page, instead of writing out all of the HTML, I parse in a JSON file containing a simple list of my project information and then run it through a secondary parser I built to display my project information. This method has its limitations but it will be easy to implement future projects which was the intention.",
             "repo": "https://github.com/Tyler-251/Portfolio-Site",
             "id": "website"
         },

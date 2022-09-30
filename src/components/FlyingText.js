@@ -7,7 +7,7 @@ export function FlyingText(text) {
     var randomSpeed = seed * 10000 + 10000;
     var randomSize = ((seed*100/13) + 7) + "pt";
     var randomStart = Math.random() * 10000;
-    var t1 = "translate(" + (-20) + "%, 0)"
+    var t1 = "translate(" + (-35) + "%, 0)"
     var t2 = "translate(" + (130) + "%, 0)"
     const styles = useSpring({
         loop: true,
