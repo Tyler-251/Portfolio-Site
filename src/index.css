@@ -36,7 +36,7 @@ body {
 /* #region header */
 .headerdiv {
     background-color: #3C1321;
-    margin-left: -10px = 0px;
+    margin-left: -10px;
     height: 100px;
     background-size: cover;
     background-position-y: bottom;
@@ -285,7 +285,7 @@ body {
     background-color: rgb(32, 36, 113);
 }
 .link-logo img {
-    width:fit-content;
+    width: min-content;
     max-height: 55px;
     padding: 8px;
     padding-top: 12px;
@@ -372,7 +372,6 @@ body {
     justify-content: center;
     margin-top: 10px;
     margin-bottom: 5px;
-    transform: scale(100vw);
     overflow: hidden;
 }
 
