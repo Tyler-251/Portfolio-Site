@@ -277,7 +277,6 @@ body {
 }
 .link-logo:hover {
     background-color: rgb(28, 31, 98);
-    transform: scale(1.1,1.1);
 }
 .link-logo:active {
     background-color: rgb(32, 36, 113);
