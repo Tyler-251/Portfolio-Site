@@ -8,10 +8,10 @@ export const InfoMain = (props) => {
     return (
         <div class="main">
             <div class="infomain">
-                <a class="btn" href={resume} target="_blank" rel="noreferrer">Open Resume &rarr;</a>
+                <a class="btn" href={"/^/" + resume} target="_blank" rel="noreferrer">Open Resume &rarr;</a>
             </div>
             <div class="document">
-                <Document file={resume}>
+                <Document file={"/^/" + resume}>
                     <Page pageNumber={1}/>
                 </Document>
             </div>
