@@ -34,7 +34,7 @@ body {
 /* #region header */
 .headerdiv {
     background-color: #3C1321;
-    margin-left: -10px;
+    margin-left: 0px;
     height: 100px;
     background-size: cover;
     background-position-y: bottom;
