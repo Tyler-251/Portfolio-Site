@@ -282,8 +282,9 @@ body {
     background-color: rgb(32, 36, 113);
 }
 .link-logo img {
-    width: min-content;
     max-height: 55px;
+    width: fit-content;
+    max-width: 70px;
     padding: 8px;
     padding-top: 12px;
 }
