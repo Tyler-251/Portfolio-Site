@@ -283,7 +283,7 @@ body {
 }
 .link-logo img {
     max-height: 55px;
-    width: fit-content;
+    width: min-content;
     max-width: 70px;
     padding: 8px;
     padding-top: 12px;
