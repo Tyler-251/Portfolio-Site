@@ -171,6 +171,9 @@ body {
     .projects-main h1 {
         text-align: center;
     }
+    .projects-main h3 {
+        font-size: 40px;
+    }
     .projects-main .year-section {
         background-color: rgba(0, 0, 0, 0.212);
         padding: 10px;
@@ -187,6 +190,8 @@ body {
         margin-left: -10px;
         margin-right: -10px;
         margin-bottom: 10px;
+
+        border-top: rgb(26, 29, 91) 5px solid;
     }
     .project-section img {
         background-color: rgba(25, 17, 49, 0.212);
@@ -373,8 +378,6 @@ body {
 footer {
     background-color: #3C1321;;
     color: white;
-    font-weight: 700;
-    font-style: italic;
 }
 footer p {
     margin:0;

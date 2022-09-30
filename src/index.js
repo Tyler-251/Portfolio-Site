@@ -1,5 +1,6 @@
 import React from "react"
 import ReactDOM from "react-dom/client"
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import { AppHeader } from "./components/AppHeader.js"
 import { NavBar } from "./components/NavBar.js"
 import { AboutMain } from "./components/AboutMain.js"
@@ -12,31 +13,19 @@ import "./index.css"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-let MainDiv;
-switch (window.location.pathname) {
-    case "/":
-        MainDiv = HomeMain;
-        break;
-    case "/info":
-        MainDiv = InfoMain;
-        break;
-    case "/projects":
-        MainDiv = ProjectsMain;
-        break;
-    case "/about":
-        MainDiv = AboutMain;
-        break;
-    default:
-        MainDiv = Error;
-
-}
-
 root.render(
     <div>
-        <AppHeader />
-        <NavBar />
-        <MainDiv />
-        <Footer />
+        <Router>
+            <AppHeader />
+            <NavBar />
+            <Routes>
+                <Route path="/" element={<HomeMain/>}/>
+                <Route path="/projects" element={<ProjectsMain/>}/>
+                <Route path="/info" element={<InfoMain/>}/>
+                <Route path="/about" element={<AboutMain/>}/>
+            </Routes>
+            <Footer />
+        </Router>
     </div>
 );
 
