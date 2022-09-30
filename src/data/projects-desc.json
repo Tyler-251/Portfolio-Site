@@ -1,0 +1,21 @@
+{
+    "0": [
+        "2022",
+        {
+            "imgpath": "./projectpics/this.png", 
+            "name": "TylerRussell.info (this website)",
+            "date": "September",
+            "desc": "I began this project in the middle of September in conjunction with a web development course. In making this site, I became familiar with React, bootstrap, and css. I also did some minute reseach into tailwind before deciding to commit to bootstrap and css. To build this projects page, instead of writing out all of the HTML, I parse in a JSON file containing a simple list of my project information and then run it through a secondary parser I built to display my project information. This method has its limitations but it will be easy to implement future projects which was the intention.",
+            "repo": "https://github.com/Tyler-251/Portfolio-Site",
+            "id": "website"
+        },
+        {
+            "imgpath": "./projectpics/angel.png", 
+            "name": "Necessity Mod",
+            "date": "June",
+            "desc": "Using the IntelliJ IDE and gradle configs, both Andrei Staicu and I started working on a mod (written in java) for the game \"Necesse\". We used the integrated classes and registries constructed by the original developer, Mads Skovgaard. The fun parts of this project were developing the sprites and figuring out the ModMethodPatch's, which was essentially rewriting the original game code that didn't already have a built-in modding class.",
+            "repo": "https://github.com/Tyler-251/Necessity-Mod",
+            "id": "mod"
+        }        
+    ]
+}
